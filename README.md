@@ -13,4 +13,4 @@ https://docs.github.com/en/codespaces/quickstart
 The codespace uses https://biomejs.dev/ for linting and formatting, with the [same configuration as zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters/blob/master/biome.json). A task is available to execute `npm run check` (`Terminal` > `Run task` > `npm: check`)
 
 > [!TIP]
-> If a new version of [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) is available but your codespace does not yet have it you can run `npm update --save zigbee-herdsman-converters` in the codespace to get it (`Terminal` > `Run task` > `npm: update zhc`).
+> If a new version of [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) is available but your codespace does not yet have it you can run `npm update --save zigbee-herdsman-converters` in the codespace to get it (`Terminal` > `Run task` > `npm: update-zhc`).
