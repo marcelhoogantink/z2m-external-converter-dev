@@ -4,9 +4,14 @@
 	"description": "Environment to create external converters for Zigbee2MQTT",
 	"main": "index.js",
 	"scripts": {
-		"check": "biome check --write"
+		"check": "biome check --write",
+		"update zhc": "npm update --save zigbee-herdsman-converters"
 	},
-	"keywords": ["z2m", "zigbee2mqtt", "external-converters"],
+	"keywords": [
+		"z2m",
+		"zigbee2mqtt",
+		"external-converters"
+	],
 	"author": "Nerivec",
 	"license": "GPL-3.0-or-later",
 	"dependencies": {

@@ -7,6 +7,13 @@
             "problemMatcher": [],
             "label": "npm: check",
             "detail": "biome check --write"
+        },
+        {
+            "type": "npm",
+            "script": "update zhc",
+            "problemMatcher": [],
+            "label": "npm: update zhc",
+            "detail": "npm update --save zigbee-herdsman-converters"
         }
     ]
 }
