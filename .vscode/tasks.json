@@ -10,9 +10,9 @@
         },
         {
             "type": "npm",
-            "script": "update zhc",
+            "script": "update-zhc",
             "problemMatcher": [],
-            "label": "npm: update zhc",
+            "label": "npm: update-zhc",
             "detail": "npm update --save zigbee-herdsman-converters"
         }
     ]
