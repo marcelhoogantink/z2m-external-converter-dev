@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"check": "biome check --write",
-		"update zhc": "npm update --save zigbee-herdsman-converters"
+		"update-zhc": "npm update --save zigbee-herdsman-converters"
 	},
 	"keywords": [
 		"z2m",
