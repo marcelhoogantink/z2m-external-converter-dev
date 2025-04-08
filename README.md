@@ -17,6 +17,9 @@ The editor will:
 
 With your Github account, go to https://github.com/Nerivec/z2m-external-converter-dev and select in the top right corner: `Use this template` > `Open in a codespace`.
 
+You can start by copying one of the examples and modifying it to fit the targeted device.
+More details: https://www.zigbee2mqtt.io/advanced/more/external_converters.html
+
 # Codespace
 
 https://docs.github.com/en/codespaces/quickstart
