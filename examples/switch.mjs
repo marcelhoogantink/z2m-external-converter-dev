@@ -3,6 +3,7 @@ import {on_off as tzOnOff} from "zigbee-herdsman-converters/converters/toZigbee"
 import {presets} from "zigbee-herdsman-converters/lib/exposes";
 import {bind, onOff} from "zigbee-herdsman-converters/lib/reporting";
 
+/** @type{import('zigbee-herdsman-converters/lib/types').DefinitionWithExtend | import('zigbee-herdsman-converters/lib/types').DefinitionWithExtend[]} */
 export default {
     zigbeeModel: ["myZigbeeModel"],
     model: "myModel",
@@ -15,7 +16,10 @@ export default {
     // when the device is controlled manually through the button on it.
     configure: async (device, coordinatorEndpoint, logger) => {
         const endpoint = device.getEndpoint(1);
-        await bind(endpoint, coordinatorEndpoint, ["genOnOff"]);
-        await onOff(endpoint);
+
+        if (endpoint) {
+            await bind(endpoint, coordinatorEndpoint, ["genOnOff"]);
+            await onOff(endpoint);
+        }
     },
 };

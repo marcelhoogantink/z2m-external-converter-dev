@@ -1,6 +1,7 @@
 import {temperature} from "zigbee-herdsman-converters/converters/fromZigbee";
 import {presets} from "zigbee-herdsman-converters/lib/exposes";
 
+/** @type{import('zigbee-herdsman-converters/lib/types').DefinitionWithExtend | import('zigbee-herdsman-converters/lib/types').DefinitionWithExtend[]} */
 export default {
     zigbeeModel: ["lumi.sens"],
     model: "WSDCGQ01LM",
