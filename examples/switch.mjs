@@ -14,7 +14,7 @@ export default {
     exposes: [presets.switch()],
     // The configure method below is needed to make the device reports on/off state changes
     // when the device is controlled manually through the button on it.
-    configure: async (device, coordinatorEndpoint, logger) => {
+    configure: async (device, coordinatorEndpoint, definition) => {
         const endpoint = device.getEndpoint(1);
 
         if (endpoint) {

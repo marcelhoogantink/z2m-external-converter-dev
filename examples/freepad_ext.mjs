@@ -78,7 +78,7 @@ export default {
             return features;
         })(20),
     ),
-    configure: async (device, coordinatorEndpoint, logger) => {
+    configure: async (device, coordinatorEndpoint, definition) => {
         const endpoint = device.getEndpoint(1);
 
         if (endpoint) {

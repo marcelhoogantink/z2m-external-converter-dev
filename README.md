@@ -28,3 +28,14 @@ The codespace uses [biomejs](https://biomejs.dev/) for linting and formatting, w
 
 > [!TIP]
 > If a new version of [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) is available but your codespace does not yet have it you can run the task: `Terminal` > `Run task` > `npm: update-zhc`. This command also runs on start of the codespace.
+
+# Snippets
+
+https://code.visualstudio.com/docs/editing/userdefinedsnippets
+
+A few snippets specific to [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) are available:
+
+- `fz` or `from` => Create a 'fromZigbee' converter variable with typing
+- `tz` or `to` => Create a 'toZigbee' converter variable with typing
+- `mdef` or `modern` => Create an exported modern definition with typing
+- `def` => Create an exported definition with typing
