@@ -31,6 +31,23 @@
                 "editor.insertSpaces": true,
                 "files.defaultLanguage": "javascript",
                 "files.eol": "\n",
+                "files.exclude": {
+                    "**/.git": true,
+                    "**/.svn": true,
+                    "**/.hg": true,
+                    "**/.DS_Store": true,
+                    "**/Thumbs.db": true,
+                    "**/.devcontainer": true,
+                    "**/.github": true,
+                    "**/.vscode": true,
+                    "**/node_modules": true,
+                    "**/.gitignore": true,
+                    "**/biome.json": true,
+                    "**/jsconfig.json": true,
+                    "**/package-lock.json": true,
+                    "**/package.json": true,
+                    "**/screenshot.jpg": true
+                },
                 "telemetry.telemetryLevel": "off",
                 "telemetry.feedback.enabled": false
             },
