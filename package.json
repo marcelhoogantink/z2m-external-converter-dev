@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"check": "biome check --write",
-		"update-zhc": "npm update --save zigbee-herdsman-converters"
+		"update-zhc": "npm update --save zigbee-herdsman zigbee-herdsman-converters"
 	},
 	"keywords": [
 		"z2m",
@@ -15,6 +15,7 @@
 	"author": "Nerivec",
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
+		"zigbee-herdsman": "^3.5.1",
 		"zigbee-herdsman-converters": "^23.24.0"
 	},
 	"devDependencies": {

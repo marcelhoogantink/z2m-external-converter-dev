@@ -2,7 +2,7 @@
 
 Template to create external converters for Zigbee2MQTT in codespace.
 
-The environment is setup to automatically detect the API of [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters).
+The environment is setup to automatically detect the API of [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters) (and [zigbee-herdsman](https://github.com/Koenkk/zigbee-herdsman)).
 
 The editor will:
 - make suggestions (with auto-completion)

@@ -13,7 +13,7 @@
             "script": "update-zhc",
             "problemMatcher": [],
             "label": "npm: update-zhc",
-            "detail": "npm update --save zigbee-herdsman-converters"
+            "detail": "npm update --save zigbee-herdsman zigbee-herdsman-converters"
         }
     ]
 }
